@@ -1,6 +1,7 @@
+import os
+
 from flask import Flask, render_template,request, session, redirect, jsonify
 from flask_session import Session
-import os
 from flask_sqlalchemy import SQLAlchemy 
 from flask_marshmallow import Marshmallow
 
